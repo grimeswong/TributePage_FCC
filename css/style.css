@@ -12,14 +12,14 @@ header {
   position: relative;
 }
 
-#header-title {
+#title {
   position: absolute;
   top: 200px;
   right: 50px;
   color: white;
   font-size: 3em;
 }
-#header-subtitle {
+#subtitle {
   position: absolute;
   top: 270px;
   right: 50px;
