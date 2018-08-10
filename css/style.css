@@ -1,0 +1,25 @@
+* {  /* Reset the user agent setting */
+  margin: 0;
+}
+
+#main {
+}
+
+header {
+  width: 100%;
+}
+
+#main-section {
+  width: 100%;
+}
+
+#footer {
+  width: 100%;
+}
+
+
+@media (min-width: 992px) {
+  #header-image {
+    width: 100%;
+  }
+}
