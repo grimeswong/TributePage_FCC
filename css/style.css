@@ -34,6 +34,21 @@ header {
 
 #tribute-info {
   padding-top: 50px;
+  text-align: center;
+}
+
+#tribute-proverb {
+  margin: 20px 10%;
+  padding: 20px 0;
+  font-size: 4em;
+  color: rgba(169,103,23,1);
+}
+#tribute-proverb::before {
+  content: "\201C";
+}
+
+#tribute-proverb::after {
+  content: "\201D";
 }
 
 #tribute-title {
