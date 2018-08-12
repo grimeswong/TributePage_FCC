@@ -48,8 +48,10 @@ header {
   text-align: center;
 }
 
-#main-section {
-  width: 100%;
+#tribute-biography {
+  margin: 20px 20%;
+  padding: 20px 0;
+  font-size: 1.5em;
 }
 
 #footer {
