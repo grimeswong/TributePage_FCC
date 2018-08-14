@@ -58,6 +58,12 @@ header {
   content: "\201D";
 }
 
+#tribute-img {
+  margin: 20px 0;
+  width: 50%;
+
+}
+
 #tribute-title {
   padding: 10px;
   font-size: 3em;
