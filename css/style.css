@@ -82,6 +82,10 @@ header {
   font-size: 1.5em;
 }
 
+.list {
+  margin: 50px 30%;
+}
+
 #footer {
   width: 100%;
 }
