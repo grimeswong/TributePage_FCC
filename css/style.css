@@ -10,31 +10,96 @@ header {
   height: 500px;
   background-color: black;
   position: relative;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(50,50,50,0.4)), url("../img/mother-teresa-hero.jpg");
+  background-position: 20%;;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#header-title {
-  position: absolute;
-  top: 200px;
-  right: 50px;
+#title {
+  padding-top: 200px;
+  padding-right: 20%;;
+  text-align: right;
   color: white;
-  font-size: 3em;
+  font-size: 4em;
 }
-#header-subtitle {
-  position: absolute;
-  top: 270px;
-  right: 50px;
+
+#subtitle {
+  padding-right: 50px;
+  text-align: right;
   color: white;
+  font-size: 0.5em;
+  font-style: italic;
+}
+#life {
+    padding-right: 50px;
+    text-align: right;
+    color: white;
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+#tribute-info {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#tribute-proverb {
+  margin: 150px 10% 100px;
+  padding: 20px 0;
+  font-size: 4em;
+  color: rgba(169,103,23,1);
+}
+#tribute-proverb::before {
+  content: "\201C";
+}
+
+#tribute-proverb::after {
+  content: "\201D";
+}
+
+#tribute-img {
+  margin: 20px 0;
+  width: 50%;
+
+}
+
+#tribute-title {
+  padding: 10px;
+  font-size: 3em;
+  text-align: center;
+}
+
+#tribute-subtitle {
+  padding-top: 5px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#tribute-biography {
+  margin: 20px 20%;
+  padding: 20px 0;
   font-size: 1.5em;
 }
 
-#main-section {
-  width: 100%;
+.list {
+  margin: 50px 30%;
 }
+
+#links{
+  margin: 40px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#links a {
+  /* text-decoration: none; */
+}
+
 
 #footer {
   width: 100%;
-}
-
-#header-image {
-  max-height: 100%;
 }
