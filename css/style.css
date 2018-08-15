@@ -60,9 +60,12 @@ header {
 }
 
 #image {
-  margin: 20px 0;
   width: 50%;
+}
 
+#image-caption {
+  font-size: 1em;
+  color:rgb(30, 30, 30);
 }
 
 #title {
