@@ -24,14 +24,14 @@ header {
   font-size: 4em;
 }
 
-#subtitle {
+#hero-subtitle {
   padding-right: 50px;
   text-align: right;
   color: white;
   font-size: 0.5em;
   font-style: italic;
 }
-#life {
+#hero-life {
     padding-right: 50px;
     text-align: right;
     color: white;
@@ -71,13 +71,13 @@ header {
   text-align: center;
 }
 
-#tribute-subtitle {
+#subtitle {
   padding-top: 5px;
   font-size: 1.5em;
   text-align: center;
 }
 
-#tribute-biography {
+#biography {
   margin: 20px 20%;
   padding: 20px 0;
   font-size: 1.5em;
