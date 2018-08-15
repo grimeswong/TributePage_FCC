@@ -84,7 +84,10 @@ header {
 }
 
 .list {
-  margin: 50px 30%;
+  margin: 50px 20%;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-gap: 30px;
 }
 
 #links{
