@@ -16,7 +16,7 @@ header {
   background-size: contain;
 }
 
-#title {
+#hero-title {
   padding-top: 200px;
   padding-right: 20%;;
   text-align: right;
@@ -59,13 +59,13 @@ header {
   content: "\201D";
 }
 
-#tribute-img {
+#image {
   margin: 20px 0;
   width: 50%;
 
 }
 
-#tribute-title {
+#title {
   padding: 10px;
   font-size: 3em;
   text-align: center;
@@ -87,7 +87,7 @@ header {
   margin: 50px 20%;
   display: grid;
   grid-template-columns: 35% 65%;
-  grid-gap: 30px;
+  grid-gap: 0px;
 }
 
 #links{
