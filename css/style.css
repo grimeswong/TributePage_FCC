@@ -10,7 +10,7 @@ header {
   min-height: 500px;
   background-color: black;
   position: relative;
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(50,50,50,0.6)), url("../img/mother-teresa-hands.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(50,50,50,0.6)), url("https://www.ncregister.com/images/editorial/rsz_mt_5_photo_book.jpg");
   background-position: 20%;;
   background-repeat: no-repeat;
   background-size: cover;
