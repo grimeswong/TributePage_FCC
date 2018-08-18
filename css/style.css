@@ -136,9 +136,12 @@ header {
   padding: 5px 20px 5px 0px;
 }
 
-.links{
-  margin: 40px 20%;
-  height: 100px;
+.links {
+  padding: 40px 0;
+}
+
+.link{
+  padding: 20px 20%;
   text-align: left;
   display: flex;
   flex-direction: column;
