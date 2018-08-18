@@ -91,9 +91,27 @@ header {
 .list {
   margin: 100px 20%;
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-areas: 'image1 image1 text1 text1 text1'
+  'text2 text2 text2 image2 image2';
   grid-gap: 0px;
+  justify-content: center;
   list-style: none;
+}
+
+.image1 {
+  grid-area: image1;
+}
+
+.image2 {
+  grid-area: image2;
+}
+
+.text1 {
+  grid-area: text1;
+}
+
+.text2 {
+  grid-area: text2;
 }
 
 .list img {
