@@ -168,6 +168,13 @@ header {
   list-style: none;
 }
 
+@media (max-width: 767px) {
+  .list {
+    margin: 20px auto;
+    grid-template-areas: 'image1''text1''image2''text2';
+  }
+}
+
 @media (min-width: 1200px) {
   .list {
     margin: 100px 20%;
@@ -215,19 +222,34 @@ header {
   }
 }
 
-.list:nth-child(odd) li {
-  padding: 5px 0px 5px 100px;
+@media (max-width: 767px) {
+  .list img {
+    margin: 30px auto;
+    width: 80%;
+  }
 }
-.list:nth-child(even) li {
-  padding: 5px 100px 5px 0px;
+
+@media (min-width: 1200px) {
+  .list:nth-child(odd) li {
+    padding: 5px 0px 5px 100px;
+  }
+  .list:nth-child(even) li {
+    padding: 5px 100px 5px 0px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .list:nth-child(odd) li {
-    padding-left: 50px;
+    padding: 5px 0px 5px 50px;
   }
   .list:nth-child(even) li {
-    padding-right: 50px;
+    padding: 5px 50px 5px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .list li {
+    padding: 5px 10%;
   }
 }
 
@@ -247,9 +269,28 @@ header {
   justify-content: space-around;
 }
 
+@media (max-width: 767px) {
+  .link{
+    padding: 20px 10%;
+  }
+}
+
 .link ul {
   font-family: "Times New Roman", serif;
   font-size: 0.8em;
+}
+
+@media (max-width: 767px) {
+  .link ul {
+    font-size: 0.9em;
+    padding: 10px 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .link li{
+    padding: 5px 0;
+  }
 }
 
 .link a:link {
