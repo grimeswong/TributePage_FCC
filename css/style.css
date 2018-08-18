@@ -24,6 +24,12 @@ header {
   }
 }
 
+@media (max-width: 767px) {
+  header {
+    min-height: 300px;
+  }
+}
+
 #hero-title {
   text-align: right;
   color: white;
@@ -43,6 +49,14 @@ header {
   #hero-title {
     padding-top: 200px;
     padding-right: 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  #hero-title {
+    padding-top: 100px;
+    padding-right: 10%;
+    font-size: 3em;
   }
 }
 
@@ -84,6 +98,14 @@ header {
   }
 }
 
+@media (max-width: 767px) {
+  #tribute-quote {
+    margin: 30px 10% 0;
+    height: 300px;
+    font-size: 3em;
+  }
+}
+
 #tribute-quote::before {
   content: "\201C";
 }
@@ -99,6 +121,12 @@ header {
 #image {
   width: 50%;
   box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 767px) {
+  #image {
+    width: 60%;
+  }
 }
 
 #image-caption {
@@ -124,6 +152,12 @@ header {
   font-size: 1.5em;
 }
 
+@media (max-width: 767px) {
+  #biography {
+    font-size: 1.2em;
+  }
+}
+
 .list {
   display: grid;
   grid-template-areas: 'image1 image1 text1 text1 text1'
@@ -132,6 +166,13 @@ header {
   justify-content: center;
   color: rgb(50, 50, 50);
   list-style: none;
+}
+
+@media (max-width: 767px) {
+  .list {
+    margin: 20px auto;
+    grid-template-areas: 'image1''text1''image2''text2';
+  }
 }
 
 @media (min-width: 1200px) {
@@ -181,19 +222,34 @@ header {
   }
 }
 
-.list:nth-child(odd) li {
-  padding: 5px 0px 5px 100px;
+@media (max-width: 767px) {
+  .list img {
+    margin: 30px auto;
+    width: 80%;
+  }
 }
-.list:nth-child(even) li {
-  padding: 5px 100px 5px 0px;
+
+@media (min-width: 1200px) {
+  .list:nth-child(odd) li {
+    padding: 5px 0px 5px 100px;
+  }
+  .list:nth-child(even) li {
+    padding: 5px 100px 5px 0px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .list:nth-child(odd) li {
-    padding-left: 50px;
+    padding: 5px 0px 5px 50px;
   }
   .list:nth-child(even) li {
-    padding-right: 50px;
+    padding: 5px 50px 5px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .list li {
+    padding: 5px 10%;
   }
 }
 
@@ -213,9 +269,28 @@ header {
   justify-content: space-around;
 }
 
+@media (max-width: 767px) {
+  .link{
+    padding: 20px 10%;
+  }
+}
+
 .link ul {
   font-family: "Times New Roman", serif;
   font-size: 0.8em;
+}
+
+@media (max-width: 767px) {
+  .link ul {
+    font-size: 0.9em;
+    padding: 10px 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .link li{
+    padding: 5px 0;
+  }
 }
 
 .link a:link {
