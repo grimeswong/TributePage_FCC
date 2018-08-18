@@ -156,3 +156,8 @@ footer {
 .footer-text {
   padding: 10px 0;
 }
+
+hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
