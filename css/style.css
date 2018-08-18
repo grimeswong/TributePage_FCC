@@ -44,6 +44,7 @@ header {
 #tribute-info {
   padding-top: 50px;
   text-align: center;
+  color: rgba(50, 50, 50);
 }
 
 #tribute-quote {
@@ -73,7 +74,7 @@ header {
 
 #image-caption {
   font-size: 1em;
-  color:rgb(30, 30, 30);
+  color:rgb(50, 50, 50);
 }
 
 #title {
@@ -101,6 +102,7 @@ header {
   'text2 text2 text2 image2 image2';
   grid-gap: 0px;
   justify-content: center;
+  color: rgb(50, 50, 50);
   list-style: none;
 }
 
