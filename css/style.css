@@ -24,6 +24,12 @@ header {
   }
 }
 
+@media (max-width: 767px) {
+  header {
+    min-height: 300px;
+  }
+}
+
 #hero-title {
   text-align: right;
   color: white;
@@ -43,6 +49,14 @@ header {
   #hero-title {
     padding-top: 200px;
     padding-right: 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  #hero-title {
+    padding-top: 100px;
+    padding-right: 10%;
+    font-size: 3em;
   }
 }
 
@@ -84,6 +98,14 @@ header {
   }
 }
 
+@media (max-width: 767px) {
+  #tribute-quote {
+    margin: 30px 10% 0;
+    height: 300px;
+    font-size: 3em;
+  }
+}
+
 #tribute-quote::before {
   content: "\201C";
 }
@@ -99,6 +121,12 @@ header {
 #image {
   width: 50%;
   box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 767px) {
+  #image {
+    width: 60%;
+  }
 }
 
 #image-caption {
@@ -122,6 +150,12 @@ header {
   margin: 20px 20%;
   padding: 20px 0;
   font-size: 1.5em;
+}
+
+@media (max-width: 767px) {
+  #biography {
+    font-size: 1.2em;
+  }
 }
 
 .list {
