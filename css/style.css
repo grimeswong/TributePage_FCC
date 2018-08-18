@@ -94,6 +94,11 @@ header {
   list-style: none;
 }
 
+.list img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
 li {
   padding: 5px 20px;
 }
