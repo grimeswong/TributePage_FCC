@@ -89,7 +89,7 @@ header {
 }
 
 .list {
-  margin: 50px 20%;
+  margin: 100px 20%;
   display: grid;
   grid-template-columns: 35% 65%;
   grid-gap: 0px;
@@ -102,11 +102,11 @@ header {
 }
 
 .list:nth-child(odd) li {
-  padding: 5px 0px 5px 10px;
+  padding: 5px 0px 5px 20px;
 }
 
 .list:nth-child(even) li {
-  padding: 5px 10px 5px 0px;
+  padding: 5px 20px 5px 0px;
 }
 
 #links{
