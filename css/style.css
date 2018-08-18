@@ -46,18 +46,18 @@ header {
   text-align: center;
 }
 
-#tribute-proverb {
+#tribute-quote {
   margin: 150px 20% 100px;
   padding: 20px 0;
   height: 400px;
   font-size: 4em;
   color: rgba(169,103,23,1);
 }
-#tribute-proverb::before {
+#tribute-quote::before {
   content: "\201C";
 }
 
-#tribute-proverb::after {
+#tribute-quote::after {
   content: "\201D";
 }
 
