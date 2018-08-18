@@ -91,6 +91,11 @@ header {
   display: grid;
   grid-template-columns: 35% 65%;
   grid-gap: 0px;
+  list-style: none;
+}
+
+li {
+  padding: 5px 20px;
 }
 
 #links{
