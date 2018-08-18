@@ -101,8 +101,12 @@ header {
   border-radius: 5px;
 }
 
-li {
-  padding: 5px 20px;
+.list:nth-child(odd) li {
+  padding: 5px 0px 5px 10px;
+}
+
+.list:nth-child(even) li {
+  padding: 5px 10px 5px 0px;
 }
 
 #links{
