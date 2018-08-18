@@ -146,6 +146,7 @@ header {
   font-family: Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
+  color: rgb(50, 50, 50);
 }
 
 .link{
@@ -159,6 +160,14 @@ header {
 .link ul {
   font-family: "Times New Roman", serif;
   font-size: 0.8em;
+}
+
+.link a:link {
+  color: rgb(50, 50, 50);
+}
+
+.link a:visited {
+  color: rgb(100, 100, 100);
 }
 
 footer {
