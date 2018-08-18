@@ -7,7 +7,6 @@
 
 header {
   width: 100%;
-  min-height: 500px;
   background-color: black;
   position: relative;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(50,50,50,0.6)), url("https://www.ncregister.com/images/editorial/rsz_mt_5_photo_book.jpg");
@@ -17,14 +16,32 @@ header {
   box-shadow: 0 5px 100px 0 rgba(50,50,50,0.6);
 }
 
+@media (min-width: 768px) {
+  header {
+    min-height: 500px;
+  }
+}
+
 #hero-title {
-  padding-top: 200px;
-  padding-right: 20%;;
   text-align: right;
   color: white;
   font-size: 4em;
   font-family: "Lucida Console", serif;
   text-shadow: 2px 2px rgb(20, 20, 20);
+}
+
+@media (min-width: 1200px) {
+  #hero-title {
+    padding-top: 200px;
+    padding-right: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  #hero-title {
+    padding-top: 200px;
+    padding-right: 10%;
+  }
 }
 
 #hero-subtitle {
