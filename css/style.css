@@ -286,29 +286,25 @@ header {
 }
 
 .link ul {
-  font-family: "Times New Roman", serif;
+  padding: 10px 5px;
+  font-family: Helvetica, sans-serif;
   font-size: 0.8em;
-}
-
-.link li {
-  list-style: none;
-}
-
-.link li:hover {
-  opacity: 0.8;
 }
 
 @media (max-width: 767px) {
   .link ul {
     font-size: 0.9em;
-    padding: 10px 5px;
   }
+
 }
 
-@media (max-width: 767px) {
-  .link li{
-    padding: 5px 0;
-  }
+.link li {
+  padding: 5px 0;
+  list-style: none;
+}
+
+.link li:hover {
+  opacity: 0.8;
 }
 
 .link a:link {
