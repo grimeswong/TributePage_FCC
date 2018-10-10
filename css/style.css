@@ -4,9 +4,6 @@
   padding: 0;
 }
 
-#main {
-}
-
 header {
   width: 100%;
   background-color: black;
@@ -18,7 +15,13 @@ header {
   box-shadow: 0 5px 100px 0 rgba(50,50,50,0.6);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
+  header {
+    min-height: 700px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
   header {
     min-height: 500px;
   }
@@ -40,16 +43,15 @@ header {
 
 @media (min-width: 1200px) {
   #hero-title {
-    padding-top: 200px;
+    padding-top: 400px;
     padding-right: 10%;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   #hero-title {
     padding-top: 200px;
     padding-right: 10%;
-    color: white;
   }
 }
 
