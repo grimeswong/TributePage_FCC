@@ -133,7 +133,8 @@ header {
   }
 }
 
-#image-caption {
+#img-caption {
+  padding: 8px 0;
   font-size: 1em;
   color:rgb(50, 50, 50);
 }
