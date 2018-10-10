@@ -103,7 +103,7 @@ header {
 
 @media (max-width: 767px) {
   #tribute-quote {
-    margin: 30px 10% 0;
+    margin: 30px 10%;
     font-size: 3em;
   }
 }
