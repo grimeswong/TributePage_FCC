@@ -89,7 +89,6 @@ header {
 #tribute-quote {
   margin: 150px 20% 100px;
   padding: 20px 0;
-  height: 400px;
   font-size: 4em;
   font-family: Georgia, serif;
   color: rgba(169,103,23,1);
@@ -104,8 +103,7 @@ header {
 
 @media (max-width: 767px) {
   #tribute-quote {
-    margin: 30px 10% 0;
-    height: 300px;
+    margin: 30px 10%;
     font-size: 3em;
   }
 }
@@ -135,7 +133,8 @@ header {
   }
 }
 
-#image-caption {
+#img-caption {
+  padding: 8px 0;
   font-size: 1em;
   color:rgb(50, 50, 50);
 }
