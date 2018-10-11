@@ -29,7 +29,14 @@ header {
 
 @media (max-width: 767px) {
   header {
+    position: fixed;
     min-height: 300px;
+    z-index: -1;
+  }
+  main {
+    position: relative;
+    top: 300px;
+    background-color: white;
   }
 }
 
