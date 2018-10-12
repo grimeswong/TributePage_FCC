@@ -305,13 +305,6 @@ header {
   font-size: 0.8em;
 }
 
-@media (max-width: 767px) {
-  .link ul {
-    font-size: 0.9em;
-  }
-
-}
-
 .link li {
   padding: 5px 0;
   list-style: none;
